@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&family=Marvel:wght@700&family=Roboto:wght@300;400;500&display=swap');
+
+.header-container{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    & .div-container-img{
+        #name{
+            width: 132px;
+            height: 28px;
+        }
+    }
+    & .nav-container{
+        display: flex;
+        width: 50%;
+        align-self: center;
+        & ul{
+            display: flex;
+            flex-direction: row;
+            place-content: space-evenly;
+            width: 100%;
+            & li{
+                color: white;
+        
+            }
+        }
+    }
+}
